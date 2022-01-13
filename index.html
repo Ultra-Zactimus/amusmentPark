@@ -8,5 +8,54 @@
   <title>Amusement Park</title>
 </head>
 <body>
+  <div id="cover">
+    <form id="height_check">
+      <div class="form-group">
+        <label for="height">What is your height in inches?</label>
+        <input id="height" class="form-control" type="number">
+      </div>
+      <div class="form-group">
+        <button id="check" type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div id="under-height">
+    <div class="flex">
+      <p>Sorry, you are too short 🥲</p>
+    </div>
+  </div>
+  <div id="over-height">
+    <div class="flex">
+      <p>Sorry, you are too tall 🥲</p>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>Adults Only</h2>
+          <ol id="adult">
+            <li>THE SPINNER</li>
+            <li>Drop-Down!</li>
+            <li>Try not to get Sick</li>
+            <li>Loopty-Loop</li>
+          </ol>
+          <h2>Kids Only</h2>
+          <ol id="children">
+            <li>Runaway Train</li>
+            <li>Leaf Spinner</li>
+            <li>Water-Slide</li>
+            <li>Loopty-Loop</li>
+          </ol>
+        </div>
+        <div class="col-6">
+          <h2>CONGRATULATIONS!</h2>
+          <br>
+          <p>You have passed the Height requirement!</p>
+          <br>
+          <br>
+          <p>You can only ride the rides marked in orange. Please review our list for further info.</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

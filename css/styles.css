@@ -1,0 +1,44 @@
+#cover, .flex{
+  position:fixed;
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/amusement-park.jpeg');
+  z-index: 1;
+}
+
+form {
+  width: 400px;
+  border: black solid 1px;
+  padding: 5%;
+  background-color: white;
+}
+
+p {
+  padding: 5%;
+  width: 400px;
+  text-align:center;
+  background-color: white;
+  border: black solid 1px;
+}
+
+#under-height {
+  display:none;
+}
+
+#over-height {
+  display:none;
+}
+
+.btn {
+  background-color: white;
+  border: black solid 1px;
+}
+
+.orange {
+  text-decoration: underline;
+  color: orange;
+}
